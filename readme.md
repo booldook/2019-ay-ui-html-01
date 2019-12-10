@@ -1,3 +1,10 @@
+# 우리가 앞으로 배우게 될 과정
+## html/css/bootstrap/javascript/jquery/vue/node
+### 12월 안: html, css 완료 - 웹디자이너
+### 1월 Javascript/jQuery - Publisher
+### 2월 vue.js/node.js - FrontEnd/BackEnd
+### 3월 -> 포트폴리오
+
 # MarkDown언어를 배워보자
 ## 제목을 나타내 보자
 ~~~md
@@ -5,7 +12,6 @@
 ## 제목2
 ### 제목3
 ~~~
-
 ---
 # Git을 사용해 보아요
 ## 깃허브에 가입한다. https://github.com
