@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>CSS - Display 속성을 배워보자</title>
+	<style>
+		.border-red {
+			border: 1px solid red;
+		}
+		.border-blue {
+			border: 1px solid blue;
+		}
+		.font-24 {
+			font-size: 24px;
+		}
+		.txt-green {
+			color: green; 
+		}
+
+		div {
+			display: inline;
+		}
+		body {
+			text-align: center;
+		}
+		.navi-wrap {
+			display: block;
+			text-align: center;
+			background-color: #333;
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<div class="border-red">div는 대표적인 block 요소이다.</div>
+	<div class="border-red font-24">div는 대표적인 block 요소이다.</div>
+	<div class="border-blue txt-green">div는 대표적인 block 요소이다.</div>
+
+	<div class="navi-wrap">
+		<div class="navi">HOME</div>
+		<div class="navi">Company</div>
+		<div class="navi">Products</div>
+	</div>
+</body>
+</html>

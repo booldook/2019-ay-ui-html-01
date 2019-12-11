@@ -1,4 +1,4 @@
-# HTML
+# HTML(HyperText Markup Language) 정리
 ~~~html
 <!-- 기본태그 - block -->
 <div>한 줄(block)을 차지</div>
