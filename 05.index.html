@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
 	<style>
-	body {
-		/* 
-		1. text-align은 정렬을 해준다.([left], center, right, justify)
-		2. 선택한 영역을 주석처리 하려면 [alt+shift+a]
-		3. 커서가 위치한 한 줄을 주석처리 하려면 [ctrl + /]
-		*/
-		text-align: justify; 
-	}
-	#logo {
-		width: 150px;
-	}
-	a {
-		border: 1px solid goldenrod;
-		text-decoration: none;
-	}
-	#content {
-		font-size: 24px;
-		color: #555555;
-	}
-	span {
-		color: red;
-		font-size: 30px;
-	}
+		body {
+			/* 
+1. text-align은 정렬을 해준다.([left], center, right, justify)
+2. 선택한 영역을 주석처리 하려면 [alt+shift+a]
+3. 커서가 위치한 한 줄을 주석처리 하려면 [ctrl + /]
+*/
+			text-align: justify;
+		}
+
+		#logo {
+			width: 150px;
+		}
+
+		a {
+			border: 1px solid goldenrod;
+			text-decoration: none;
+		}
+
+		#content {
+			font-size: 24px;
+			color: #555555;
+		}
+
+		span {
+			color: red;
+			font-size: 30px;
+		}
+
+		#logo-wrap {
+			text-align: left;
+		}
 	</style>
 </head>
+
 <body>
-	<div>
+	<div id="logo-wrap">
 		<img src="./img/logo.jpg" alt="로고" id="logo">
 	</div>
 	<div>
@@ -42,7 +52,15 @@
 		<a href="./03-03.pic.html">그림3</a>
 	</div>
 	<div id="content">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam labore officia quaerat aperiam ratione eaque odit maiores error modi quos ipsam tempora exercitationem assumenda, nisi deserunt sunt cum suscipit porro. <b>Lorem ipsum</b> dolor, sit amet consectetur adipisicing elit. Corporis pariatur, fugit nulla reiciendis doloribus, eos officia veniam sapiente alias magni ipsam non accusantium? <span>Eum at expedita</span> dolorum odio qui? Aut?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque similique quidem non molestiae iste deserunt ab, quos quas totam possimus, esse neque atque iure, quo praesentium nemo? Delectus, earum dolorem?<span>Lorem, ipsum</span> dolor sit amet consectetur adipisicing elit. Nihil laborum ipsum sapiente voluptatem maxime et quis iste eum! Doloremque ab reprehenderit ex eum aut earum molestias excepturi ut qui porro.
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam labore officia quaerat aperiam ratione eaque odit
+		maiores error modi quos ipsam tempora exercitationem assumenda, nisi deserunt sunt cum suscipit porro. <b>Lorem
+			ipsum</b> dolor, sit amet consectetur adipisicing elit. Corporis pariatur, fugit nulla reiciendis doloribus, eos
+		officia veniam sapiente alias magni ipsam non accusantium? <span>Eum at expedita</span> dolorum odio qui? Aut?Lorem
+		ipsum dolor, sit amet consectetur adipisicing elit. Eaque similique quidem non molestiae iste deserunt ab, quos quas
+		totam possimus, esse neque atque iure, quo praesentium nemo? Delectus, earum dolorem?<span>Lorem, ipsum</span> dolor
+		sit amet consectetur adipisicing elit. Nihil laborum ipsum sapiente voluptatem maxime et quis iste eum! Doloremque
+		ab reprehenderit ex eum aut earum molestias excepturi ut qui porro.
 	</div>
 </body>
+
 </html>
