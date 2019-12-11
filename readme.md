@@ -30,3 +30,4 @@
 가. 설치 완료 후 파일 > 기본설정 > 바로가기키
 나. 검색창에 beautify 검색하여 beautify file을 클릭하여 `ctrl+alt+l` 바로가기키를 눌러줌
 #### 4) [auto rename] 설치
+#### 5) [IntelliSense for CSS class names in HTML] 설치 - class를 읽기위해, 하단의 번개표시를 클릭하면 자동완성기능에 반영됨
