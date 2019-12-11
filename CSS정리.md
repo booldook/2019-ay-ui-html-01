@@ -22,7 +22,12 @@
 /* 
 css의 가장 중요한 개념들 
 - display속성: block, inline, inline-block, none
+- float()
 */
+/* 기본 Block 속성 */
+div,  ... Semantic요소
+/* 기본 inline 속성 */
+a, span, b, img
 
 /* 배경색 */
 background-color: red; 
