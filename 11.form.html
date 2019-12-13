@@ -6,51 +6,65 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Form을 배워보자</title>
+	<style>
+	.form-wrap {
+		max-width: 600px;
+		margin: auto;
+		border: 1px solid #aaa;
+		border-radius: 6px;
+		padding: 16px;
+	}
+	.form-wrap > div {
+		padding: 8px;
+		border-bottom: 1px solid #eee;
+	}
+	.form-wrap span {
+		display: inline-block;
+		width: 120px;
+	}
+	</style>
 </head>
-
 <body>
-	<div>
-		<span>아이디: </span>
-		<input type="text">
-	</div>
-	<div>
-		<span>패스워드: </span>
-		<input type="password">
-	</div>
-	<div>
-		<span>성별: </span>
-		<input type="radio" name="gender">남자
-	</div>
-	<div>
-		<input type="radio" name="gender">여자
-	</div>
-	<div>
-		<span>취미: </span>
-		<input type="checkbox" name="favorite">등산
-	</div>
-	<div>
-		<input type="checkbox" name="favorite">낚시
-	</div>
-	<div>
-		<input type="checkbox" name="favorite">독서
-	</div>
-	<div>
-		<span>전화번호: </span>
-		<select name="tel" id="tel1">
-			<option value="010">010</option>
-			<option value="011">011</option>
-			<option value="016">016</option>
-			<option value="017">017</option>
-			<option value="018">018</option>
-			<option value="019">019</option>
-		</select>
-	</div>
-	<div>
-		<span>남기실 말</span>
-		<textarea name="comment" id="comment" cols="30" rows="10"></textarea>
-	</div>
-	<div>
-		<button>확인</button>
+	<div class="form-wrap">
+		<div>
+			<span>아이디: </span>
+			<input type="text">
+		</div>
+		<div>
+			<span>패스워드: </span>
+			<input type="password">
+		</div>
+		<div>
+			<span>성별: </span>
+			<input type="radio" name="gender">남자
+			<input type="radio" name="gender">여자
+		</div>
+		<div>
+			<span>취미: </span>
+			<input type="checkbox" name="favorite">등산
+			<input type="checkbox" name="favorite">낚시
+			<input type="checkbox" name="favorite">독서
+		</div>
+		<div>
+			<span>전화번호: </span>
+			<select name="tel" id="tel1">
+				<option value="010">010</option>
+				<option value="011">011</option>
+				<option value="016">016</option>
+				<option value="017">017</option>
+				<option value="018">018</option>
+				<option value="019">019</option>
+			</select> - 
+			<input type="text"> - 
+			<input type="text">
+		</div>
+		<div>
+			<span>남기실 말</span>
+			<textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+		</div>
+		<div>
+			<button>확인</button>
+		</div>
 	</div>
 </body>
 
