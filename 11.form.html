@@ -22,17 +22,40 @@
 		display: inline-block;
 		width: 120px;
 	}
+	input {
+		border: 1px solid #ddd;
+		padding: 8px;
+		border-radius: 4px;
+		outline-color: darkmagenta;
+	}
+	select {
+		border: 1px solid #ddd;
+		padding: 4px;
+		border-radius: 4px;
+		outline-color: darkmagenta;
+	}
+	input[name='tel2'], input[name='tel3'] {
+		width: 60px;
+	}
+	textarea {
+		width: 60%;
+		height: 100px;
+		border: 1px solid #ddd;
+		border-radius: 4px;
+		max-width: 300px;
+		padding: 8px;
+	}
 	</style>
 </head>
 <body>
 	<div class="form-wrap">
 		<div>
 			<span>아이디: </span>
-			<input type="text">
+			<input type="text" name="userid" placeholder="아이디">
 		</div>
 		<div>
 			<span>패스워드: </span>
-			<input type="password">
+			<input type="password" name="userpw">
 		</div>
 		<div>
 			<span>성별: </span>
@@ -47,7 +70,7 @@
 		</div>
 		<div>
 			<span>전화번호: </span>
-			<select name="tel" id="tel1">
+			<select name="tel1">
 				<option value="010">010</option>
 				<option value="011">011</option>
 				<option value="016">016</option>
@@ -55,12 +78,12 @@
 				<option value="018">018</option>
 				<option value="019">019</option>
 			</select> - 
-			<input type="text"> - 
-			<input type="text">
+			<input type="text" name="tel2" class="tel"> - 
+			<input type="text" name="tel3" class="tel">
 		</div>
 		<div>
-			<span>남기실 말</span>
-			<textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+			<span style="float: left;">남기실 말:</span>
+			<textarea name="comment"></textarea>
 		</div>
 		<div>
 			<button>확인</button>
